@@ -1,0 +1,65 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Levismad.Objetos", "Levismad.Objetos\Levismad.Objetos.csproj", "{5B32024A-48CE-470E-A7FF-4EC6BC3D607C}"
+	ProjectSection(ProjectDependencies) = postProject
+		{3DD913B8-3DEF-4F6D-B83A-CDE87E05788C} = {3DD913B8-3DEF-4F6D-B83A-CDE87E05788C}
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Levismad.Contratos", "Levismad.Contratos\Levismad.Contratos.csproj", "{3DD913B8-3DEF-4F6D-B83A-CDE87E05788C}"
+	ProjectSection(ProjectDependencies) = postProject
+		{AB5D58D6-54FC-47D2-A5CE-1D62E4994086} = {AB5D58D6-54FC-47D2-A5CE-1D62E4994086}
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Levismad.Servicos", "Levismad.Servicos\Levismad.Servicos.csproj", "{60F2ADC2-624C-4E2E-B4E1-613E0813084F}"
+	ProjectSection(ProjectDependencies) = postProject
+		{5B32024A-48CE-470E-A7FF-4EC6BC3D607C} = {5B32024A-48CE-470E-A7FF-4EC6BC3D607C}
+		{3DD913B8-3DEF-4F6D-B83A-CDE87E05788C} = {3DD913B8-3DEF-4F6D-B83A-CDE87E05788C}
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Levismad.Dominio", "Levismad.Dominio\Levismad.Dominio.csproj", "{AB5D58D6-54FC-47D2-A5CE-1D62E4994086}"
+	ProjectSection(ProjectDependencies) = postProject
+		{56DEDDC9-917B-4640-8874-A583704361AD} = {56DEDDC9-917B-4640-8874-A583704361AD}
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Levismad.Repositorio", "Levismad.Repositorio\Levismad.Repositorio.csproj", "{AB31E124-7471-447E-9FEE-B04D5F471294}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Levismad.Framework", "Levismad.Framework\Levismad.Framework.csproj", "{56DEDDC9-917B-4640-8874-A583704361AD}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{5B32024A-48CE-470E-A7FF-4EC6BC3D607C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5B32024A-48CE-470E-A7FF-4EC6BC3D607C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5B32024A-48CE-470E-A7FF-4EC6BC3D607C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5B32024A-48CE-470E-A7FF-4EC6BC3D607C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3DD913B8-3DEF-4F6D-B83A-CDE87E05788C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3DD913B8-3DEF-4F6D-B83A-CDE87E05788C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3DD913B8-3DEF-4F6D-B83A-CDE87E05788C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3DD913B8-3DEF-4F6D-B83A-CDE87E05788C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{60F2ADC2-624C-4E2E-B4E1-613E0813084F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{60F2ADC2-624C-4E2E-B4E1-613E0813084F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{60F2ADC2-624C-4E2E-B4E1-613E0813084F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{60F2ADC2-624C-4E2E-B4E1-613E0813084F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AB5D58D6-54FC-47D2-A5CE-1D62E4994086}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AB5D58D6-54FC-47D2-A5CE-1D62E4994086}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AB5D58D6-54FC-47D2-A5CE-1D62E4994086}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AB5D58D6-54FC-47D2-A5CE-1D62E4994086}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AB31E124-7471-447E-9FEE-B04D5F471294}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AB31E124-7471-447E-9FEE-B04D5F471294}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AB31E124-7471-447E-9FEE-B04D5F471294}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AB31E124-7471-447E-9FEE-B04D5F471294}.Release|Any CPU.Build.0 = Release|Any CPU
+		{56DEDDC9-917B-4640-8874-A583704361AD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{56DEDDC9-917B-4640-8874-A583704361AD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{56DEDDC9-917B-4640-8874-A583704361AD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{56DEDDC9-917B-4640-8874-A583704361AD}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
