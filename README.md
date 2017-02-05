@@ -18,4 +18,4 @@ Just kidding, the real name of the application is: `quick_brown_wcf_jumps_over_l
 
 ## But why Express?
 
-Hey i am just a one developer army, the solution maybe not entirely awesome but will do the work painless way.
+Hey i am just a one developer army, the solution maybe not entirely awesome but will do the work in a painless way.
